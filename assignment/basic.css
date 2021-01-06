@@ -1,0 +1,163 @@
+h1{
+    font-size: 50px;
+    text-align: centre;
+    text-decoration-line: underline;
+    text-transform:captalize;
+	background-color:blue;
+}
+
+h2{
+	text-align:center;
+}
+
+h1,h2{
+	color: red;
+}
+
+.ban{
+	color:blue;
+	text-decoration:underline;
+	font-size:40px;
+}
+
+body{
+	background-color:burlywood;+
+	
+}
+
+.new{
+	font-size: 40px;
+	/*padding:30px;*/
+	padding:50px 20px 10px 50px;
+	/*padding-left:30px;
+	padding-top:10px;*/
+	border:2px solid red;
+	/*margin: 50px 20px 20px 30px;*/
+	margin-left:30px;
+	margin-right:50px;
+}
+
+.box1{
+	border:2px solid green;
+	margin:10px;
+	width:100px;
+	height:100px;
+	
+}
+.box2{
+	border:2px solid green;
+	margin:20px;
+	width:50px;
+	height:50px;
+	
+}
+
+.new:hover{
+	color:yellow;
+}
+
+.box3{
+	border:2px solid red;
+	margin:20px;
+	width:100px;
+	height:100px;
+	background-color:green;
+}
+
+.box3:hover{
+	background-color:aqua;
+}
+
+.box4 {
+	border:2px solid red;
+	background-color:blue;
+	margin-left:300px;
+	padding:50px;
+	bottom: 10px;
+	display: inline;
+
+}
+
+.hyer:link{
+	background-color: red;
+}
+
+.hyer:link{
+	background-color: blue;
+}
+
+.insta:visited{
+	background-color:green;
+}
+
+.insta:active{
+	background-color:green;
+}
+
+.insta:visited{
+	background-color:green;
+}
+
+.insta{
+	text-decoration: none;
+}
+
+table,tr{
+	border 2px solid black;
+
+}
+
+tr:nth-child(even){
+	background-color: blue;
+}
+
+tr:nth-child(even):hover{
+	background-color: red;
+}
+tr:nth-child(odd){
+	background-color:chocolate;
+}
+tr:nth-child(odd):hover{
+	background-color:seagreen;
+}
+
+.comb{
+	background-color: red;
+}
+
+/*div p{
+	color: blue;
+}
+
+div > p{
+	color:green;
+div + p{
+	color:green;
+}*/
+div ~ p{
+	color:green;
+}
+
+ul{
+	top:0;
+	margin:0;
+	padding:0;
+}
+li{
+	list-style-type: none;
+	float:left;
+	
+}
+ li a{
+	text-decoration:none;
+	display:block;
+	padding:10px;
+	background-color: black;
+	color:red;
+ }
+ body{
+	 margin:0;
+ }
+
+
+

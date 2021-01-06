@@ -1,0 +1,33 @@
+syntax of css
+
+selector{
+property : value;
+}
+eg
+selector-html tag, class, id 
+
+color : red
+
+eg :
+h1 {
+color:red;
+}
+ task-dec 28
+type of css/how many way to declare css
+internal css
+
+<style>
+h1{
+color: red
+}
+</style>
+
+2.External css
+3.Inline css
+
+css selector:
+Element type
+Grouping selector
+class selector
+id selector
+pseudo selector
